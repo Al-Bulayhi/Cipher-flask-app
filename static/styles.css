@@ -1,0 +1,77 @@
+body{
+    background-color: wheat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    width:100%;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.container{
+    background-color: cadetblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 50px;
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+}
+p{
+    font-size: 18px;
+    color: rgb(27, 39, 40);
+    margin-bottom: 20px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 1px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: poiinter;
+    transition: background-color 0.3s ease;
+}
+.btn-login, .btn-register, .btn-logout{
+    background-color:rgb(187, 66, 66) ;
+    color: aliceblue;
+}
+.btn-login:hover, .btn-register:hover, .btn-logout:hover{
+    background-color: rgb(211, 116, 61);
+}
+
